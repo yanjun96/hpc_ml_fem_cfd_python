@@ -2,7 +2,6 @@
 
 int main(){
 
-char x = 'M';
-wchar_t y = L'Z';
-printf("Windows binaries start with%c%lc.\n",x,y);
+char house[] = "a house of gold";
+printf("A book hold %s\n", house);
 }
