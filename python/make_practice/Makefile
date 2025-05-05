@@ -1,9 +1,9 @@
 PDF = main.pdf
-TEX = main.tex
-FIG = figures/plot.pdf
+LTX = main.tex
+FIG = figures/figure.pdf
 
-$(PDF):$(TEX) $(FIG)
-	pdflatex $(TEX)
+$(PDF):$(LTX) $(FIG)
+	pdflatex $(LTX)
 
-$(FIG): figure.py
-	python figure.py
+$(FIG):figure.py
+	python figure.py 
