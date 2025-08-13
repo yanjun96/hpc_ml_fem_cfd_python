@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/yanjun/Documents/pdc_fem_cfd_python_cpp/programme/cpp/book_c/chapter1/add'
+relocations:     []
+...
