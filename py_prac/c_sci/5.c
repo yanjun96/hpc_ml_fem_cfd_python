@@ -8,7 +8,7 @@ int factorial(int n) {
 
 int main() {
     printf("Running from: %s\n", __FILE__);
-    int a = factorial(7);
+    int a = factorial(3);
     printf("%d\n", a);
 }
 
