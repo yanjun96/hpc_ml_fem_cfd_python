@@ -3,8 +3,6 @@
 
 struct { int num; int den; } a;
 
-
-
 int main() {
     a.num = 3;
     a.den = 4;
