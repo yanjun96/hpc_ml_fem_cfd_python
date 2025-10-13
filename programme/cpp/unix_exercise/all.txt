@@ -1,7 +1,0 @@
-cat 1.txt
-cat 2.txt
-cat 3.txt
-cat lengths.txt
-cat sorted-lengths.txt
-cat testfilep01.txt
-cat testfilep02.txt
