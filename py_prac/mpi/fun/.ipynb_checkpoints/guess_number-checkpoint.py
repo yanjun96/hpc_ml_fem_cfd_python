@@ -12,12 +12,12 @@ if rank == 0:
 else:
     secret_number = None
 
-secret_number = comm.bcast(secret_number, root=0)
+secret_number = comm.bcast(secret_number, root=0) # broadcast to all other processors
 
 found = False
 attempts = 0
 
-while not found:
+while not found:  # if found is false, not found is true.
     guess = random.randint(1, 100)
     attempts += 1
     time.sleep(0.1)
@@ -28,9 +28,11 @@ while not found:
     else:
         found = False
 
-    found_anywhere = comm.allreduce(found, op=MPI.LOR)
+    found_anywhere = comm.allreduce(found, op=MPI.LOR)  # if one processor is True, then it founded.
     if found_anywhere:
         break
 
-if rank == 0:
-    print("Game over! Someone found the number.")
+comm.Barrier()  # <- add this before final print, then the game over would be print at last.
+
+if rank == 0:  # rank == 0 does not involved in guess game, so it directly print below information
+    print("[Rank 0]: Game over! Someone found the number.")
