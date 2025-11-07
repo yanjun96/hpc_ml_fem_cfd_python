@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.2)  7 NOV 2025 16:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.2)  7 NOV 2025 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -98,16 +98,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 7.
-<figures/plot.pdf, id=1, 462.52798pt x 346.89601pt>
-File: figures/plot.pdf Graphic file (type pdf)
-<use figures/plot.pdf>
-Package pdftex.def Info: figures/plot.pdf  used on input line 15.
+<plot.pdf, id=1, 462.52798pt x 346.89601pt>
+File: plot.pdf Graphic file (type pdf)
+<use plot.pdf>
+Package pdftex.def Info: plot.pdf  used on input line 13.
 (pdftex.def)             Requested size: 241.49895pt x 181.128pt.
 
 [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figur
-es/plot.pdf>] (./main.aux)
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./plot.
+pdf>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -115,8 +115,8 @@ L3 programming layer <2024-02-20>
  ) 
 Here is how much of TeX's memory you used:
  1296 strings out of 474116
- 21325 string characters out of 5743683
- 1927187 words of memory out of 5000000
+ 21269 string characters out of 5743683
+ 1926187 words of memory out of 5000000
  23695 multiletter control sequences out of 15000+600000
  561104 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -124,9 +124,9 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
 usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (1 page, 58574 bytes).
+Output written on main.pdf (1 page, 38164 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
+ 37 PDF objects out of 1000 (max. 8388607)
  18 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)

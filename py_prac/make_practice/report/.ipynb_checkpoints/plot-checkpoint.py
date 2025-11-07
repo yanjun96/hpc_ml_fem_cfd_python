@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+
+f = open('data.txt')
+matrix = []
+for line in f.readlines():
+    row = [int(x) for x in line.split(',')]
+    matrix.append(row)
+f.close
+
+
+plt.plot(matrix)
+plt.savefig('plot.pdf')

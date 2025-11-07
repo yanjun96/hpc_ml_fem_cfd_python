@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.linspace(0,50,2000)
-y = np.sin(x)
+x = np.linspace(0,500,2000)
+y = np.cos(x)
 
 plt.plot(x,y,label="sine wave")
 plt.xlabel('X')
